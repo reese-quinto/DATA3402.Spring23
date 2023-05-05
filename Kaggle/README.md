@@ -1,4 +1,4 @@
-# Kaggle Challenge
+# Binary Classification with a Tabular Kidney Stone Prediction Dataset
 ### The Problem:
 This challenge was a binary classification of patients as either having, or not having kidney stones based on the 6 features of a urinalysis. This data was actually generated from a deep learning model trained on the "Kidney Stone Prediction based on Urine Analysis" dataset.
 ### The Discussion:
