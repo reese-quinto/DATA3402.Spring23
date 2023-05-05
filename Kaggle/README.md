@@ -10,4 +10,6 @@ The data for this challence came in 2 files: a traing file and a testing file me
 - Concentration of urea (urea), and 
 - The concentration of calcium in urine (calc). 
 
-The goal of the submission was to predict the likelihood of each patient is afflicted with kidney stones. I started by segregating this set into a set with kidney stones(target = 1), and a set without kidney stones (target = 0). Using this differentiation, some visualization showed a slight correlation betweensome of the features, but nothing very promenent. The original dataframe was then split into what would be used to train the models, and what would be used to test the models (~10% reserved for testing because of the relatively small sample size). 
+The goal of the submission was to predict the likelihood of each patient is afflicted with kidney stones. 
+### The Process
+I started by segregating this set into a set with kidney stones(target = 1), and a set without kidney stones (target = 0). Using this differentiation, some visualization showed a slight correlation betweensome of the features, but nothing very promenent. The original dataframe was then split into what would be used to train the models, and what would be used to test the models (~10% reserved for testing because of the relatively small sample size). Three algorithms were chosen to compare: LinearRegression, DecisionTreeRegressor, and RandomForestRegressor. Comparing the performance of all three models against each other, RandomForestRegressor turned out to perform the best.
