@@ -1,15 +1,17 @@
 ![](UTA-DataScience-Logo.png)
 
+
 # Binary Classification with a Tabular Kidney Stone Prediction Dataset
 
-This challenge was a binary classification of patients as either having, or not having kidney stones based on the 6 features of a urinalysis. This data was actually generated from a deep learning model trained on the "Kidney Stone Prediction based on Urine Analysis" dataset. https://www.kaggle.com/datasets/vuppalaadithyasairam/kidney-stone-prediction-based-on-urine-analysis
+This repository is my work comparing the results of LinearRegression, DecisionTreeRegressor, and RandomForestRegressor models on predicting the likehood of a patient being afflicted with kidney stones based on 6 features of a urinalysis.
+https://www.kaggle.com/datasets/vuppalaadithyasairam/kidney-stone-prediction-based-on-urine-analysis
 
 ## Overview
 
-* This section could contain a short paragraph which include the following:
-  * **Definition of the tasks / challenge**  Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * **Your approach** Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
+
+  * **What is the challenge?**  The goal of this Kaggle Challenge is ultimately to predict the probability that a patient is afflicted with kidney stones based on the results of a urinalysis test using 6 different metrics.
+  * **The Approach** The approach in this repository formulates the problem as a classification task, using the sklearn models LinearRegression, DecisionTreeRegressor, and RandomForestRegressor. The 3 different models were compared and found that RandomForestRegressor was the best performer.
+  * **Summary of the performance achieved** The 3 models performed as follows using R2 as the metric:: LinearRegression: 0.28; DecisionTreeRegressor: 0.26; RandomForestRegressor: 0.30.
 
 ## Summary of Workdone
 
@@ -113,14 +115,6 @@ Show a few visualization of the data and say a few words about what you see.
 * Provide any references.
 
 
-
-
-
-
-
-
-
-# Binary Classification with a Tabular Kidney Stone Prediction Dataset
 ### The Problem:
 This challenge was a binary classification of patients as either having, or not having kidney stones based on the 6 features of a urinalysis. This data was actually generated from a deep learning model trained on the "Kidney Stone Prediction based on Urine Analysis" dataset.
 ### The Discussion:
